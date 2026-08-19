@@ -1,0 +1,36 @@
+```mermaid
+flowchart TD
+    n0["ASSET"]
+    n1["VALUE"]
+    n2["THREAT"]
+    n3["VULNERABILITY"]
+    n4["RISK"]
+    n5["CONTROL"]
+    n6["DETECTION"]
+    n7["RESPONSE"]
+    n8["RECOVERY"]
+    n9["POST-INCIDENT LEARNING"]
+    n0 --> n1
+    n1 --> n2
+    n2 --> n3
+    n3 --> n4
+    n4 --> n5
+    n5 --> n6
+    n6 --> n7
+    n7 --> n8
+    n8 --> n9
+    n0 -->|learning| n0
+
+stateDiagram-v2
+    [*] --> INVENTORIED
+    INVENTORIED --> VALUED
+    VALUED --> THREAT-MODELED
+    THREAT-MODELED --> VULN-ASSESSED
+    VULN-ASSESSED --> RISK-RATED
+    RISK-RATED --> CONTROLLED
+    CONTROLLED --> DETECTING
+    DETECTING --> RESPONDING
+    RESPONDING --> RECOVERING
+    RECOVERING --> LEARNED
+    LEARNED --> [*]
+```

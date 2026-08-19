@@ -1,0 +1,47 @@
+{
+  "decision_object": {
+    "decision_id": "SEC-2026-088",
+    "decision_name": "Unpatched VPN CVE-2026-1234",
+    "owning_function": "Security",
+    "decision_owner_role": "Security Engineer",
+    "trigger_condition": "Internet-facing VPN; CVE CVSS 9.8; exploit circulating",
+    "current_state": "Unpatched; mass-scanning observed",
+    "required_inputs": [
+      "CVE details",
+      "exposure",
+      "exploit availability",
+      "patch status"
+    ],
+    "evidence_threshold": "Patch verified + 0 successful exploitation",
+    "available_options": [
+      "Patch now",
+      "Isolate behind firewall",
+      "Accept",
+      "Transfer via MDR"
+    ],
+    "decision_criteria": "Eliminate acute exploitation risk",
+    "constraints": "Minimize downtime",
+    "risk_level": "critical",
+    "delegation_level": "Escalate",
+    "escalation_conditions": "Any successful exploit attempt",
+    "expected_outcome": "No exploitation; patch verified",
+    "verification_method": "IPS signature + log audit",
+    "actual_outcome": "Patched; 1 probe blocked pre-patch",
+    "learning_extracted": "Critical CVEs on edge gear need same-day patch",
+    "rule_version": "SEC-RULE-001",
+    "last_reviewed": "2026-08-18"
+  },
+  "learning_ledger": {
+    "case": "Unpatched edge VPN with critical CVE",
+    "decision": "Mitigate urgently (patch)",
+    "assumption": "Exploitation imminent",
+    "action": "Emergency patch + IPS sig + log audit",
+    "expected_result": "No exploitation",
+    "actual_result": "1 probe blocked; no compromise",
+    "variance": "Confirmed imminent threat",
+    "cause": "Internet-facing + public exploit",
+    "learning": "Same-day patch SLA for internet-facing critical CVEs",
+    "rule_update": "Auto-create urgent patch task for internet-facing CVE >= 9.0"
+  },
+  "orientation_required": true
+}

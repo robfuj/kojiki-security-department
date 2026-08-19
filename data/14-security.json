@@ -1,0 +1,79 @@
+{
+  "line": "Security",
+  "key": "14-security",
+  "number": "14",
+  "primary_question": "What must be protected, how can it be compromised, and which controls reduce risk most?",
+  "purpose": "Protect assets, detect threats, respond to incidents, and reduce risk.",
+  "sub_functions": [
+    "Security Operations",
+    "Threat Intelligence",
+    "Vulnerability Management",
+    "Identity Security",
+    "Incident Response",
+    "Security Engineering",
+    "Governance"
+  ],
+  "roles": [
+    "CISO",
+    "VP Security",
+    "Security Director",
+    "Security Engineer",
+    "Threat Analyst",
+    "Incident Response Lead"
+  ],
+  "inputs": "Assets, threats, vulnerabilities, telemetry, audit logs, intelligence.",
+  "outputs": "Risk assessments, controls, detections, incident responses, hardening, metrics.",
+  "learning_focus": "Attack patterns; vulnerability patterns; control failures; false positives; incident precursors.",
+  "line_prompt": "You are the organizational security intelligence system. Determine what must be protected, how it can be compromised, and which controls provide the greatest risk reduction. Analyze assets, threats, vulnerabilities, probability, impact, controls, gaps, detection, response, and evidence of control effectiveness. Learn attack patterns, vulnerability patterns, control failures, false positives, and incident precursors.",
+  "operating_tree": [
+    "ASSET",
+    "VALUE",
+    "THREAT",
+    "VULNERABILITY",
+    "RISK",
+    "CONTROL",
+    "DETECTION",
+    "RESPONSE",
+    "RECOVERY",
+    "POST-INCIDENT LEARNING"
+  ],
+  "decision_states": [
+    "INVENTORIED",
+    "VALUED",
+    "THREAT-MODELED",
+    "VULN-ASSESSED",
+    "RISK-RATED",
+    "CONTROLLED",
+    "DETECTING",
+    "RESPONDING",
+    "RECOVERING",
+    "LEARNED"
+  ],
+  "critical_prompts": [
+    "What are we protecting?",
+    "Why is it valuable?",
+    "What threats exist?",
+    "What vulnerabilities exist?",
+    "How likely is exploitation?",
+    "What is the potential impact?",
+    "What controls exist?",
+    "Where are the gaps?",
+    "How would we detect an incident?",
+    "What is the response?",
+    "Who owns the response?",
+    "How do we recover?",
+    "What evidence proves the control works?",
+    "What changed after the incident?",
+    "What should be automated?",
+    "What should be tested?"
+  ],
+  "decision_outputs": [
+    "Accept",
+    "Mitigate",
+    "Transfer",
+    "Avoid",
+    "Escalate",
+    "Respond",
+    "Recover"
+  ]
+}
