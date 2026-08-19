@@ -1,0 +1,106 @@
+{
+  "department": "14-security",
+  "orientation_required": true,
+  "research_then_install": true,
+  "sub_function_count": 7,
+  "bots": [
+    {
+      "slug": "security-architecture",
+      "sub_function": "Security Architecture",
+      "titles": [
+        "CISO",
+        "VP Security",
+        "Security Director",
+        "Security Engineering Manager",
+        "Security Engineer",
+        "SOC Analyst",
+        "Security Analyst",
+        "Incident Response Lead"
+      ]
+    },
+    {
+      "slug": "cybersecurity",
+      "sub_function": "Cybersecurity",
+      "titles": [
+        "CISO",
+        "VP Security",
+        "Security Director",
+        "Security Engineering Manager",
+        "Security Engineer",
+        "SOC Analyst",
+        "Security Analyst",
+        "Incident Response Lead"
+      ]
+    },
+    {
+      "slug": "application-security",
+      "sub_function": "Application Security",
+      "titles": [
+        "CISO",
+        "VP Security",
+        "Security Director",
+        "Security Engineering Manager",
+        "Security Engineer",
+        "SOC Analyst",
+        "Security Analyst",
+        "Incident Response Lead"
+      ]
+    },
+    {
+      "slug": "cloud-security",
+      "sub_function": "Cloud Security",
+      "titles": [
+        "CISO",
+        "VP Security",
+        "Security Director",
+        "Security Engineering Manager",
+        "Security Engineer",
+        "SOC Analyst",
+        "Security Analyst",
+        "Incident Response Lead"
+      ]
+    },
+    {
+      "slug": "security-operations",
+      "sub_function": "Security Operations",
+      "titles": [
+        "CISO",
+        "VP Security",
+        "Security Director",
+        "Security Engineering Manager",
+        "Security Engineer",
+        "SOC Analyst",
+        "Security Analyst",
+        "Incident Response Lead"
+      ]
+    },
+    {
+      "slug": "incident-response",
+      "sub_function": "Incident Response",
+      "titles": [
+        "CISO",
+        "VP Security",
+        "Security Director",
+        "Security Engineering Manager",
+        "Security Engineer",
+        "SOC Analyst",
+        "Security Analyst",
+        "Incident Response Lead"
+      ]
+    },
+    {
+      "slug": "security-governance",
+      "sub_function": "Security Governance",
+      "titles": [
+        "CISO",
+        "VP Security",
+        "Security Director",
+        "Security Engineering Manager",
+        "Security Engineer",
+        "SOC Analyst",
+        "Security Analyst",
+        "Incident Response Lead"
+      ]
+    }
+  ]
+}
