@@ -29,7 +29,7 @@
     "actual_outcome": "Patched; 1 probe blocked pre-patch",
     "learning_extracted": "Critical CVEs on edge gear need same-day patch",
     "rule_version": "SEC-RULE-001",
-    "last_reviewed": "2026-08-18"
+    "last_reviewed": "2026-08-19"
   },
   "learning_ledger": {
     "case": "Unpatched edge VPN with critical CVE",
